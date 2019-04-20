@@ -12,6 +12,28 @@ Pada modul ini akan dijelaskan pembuatan aplikasi mobile khususnya Android mengg
 
 # Permulaan
 
+#### Instalasi Chocolatey
+
+1. Buka CMD as Administrator
+2. Copy Paste kode di bawah
+```
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+```
+3. Enter, kemudian tunggu hingga proses instalasi selesai.
+4. Close CMD
+5. Untuk memastikan instalasi chocolatey berhasil, buka CMD baru kemudian
+   ketikan `choco --version` jika muncul versi dari chocolatey maka chocolatey
+   sudah dapat digunakan.
+
+#### Instalasi JDK
+
+1. Buka CMD as Administrator
+2. Install open JDK dengan kode di bawah
+```
+choco install -y jdk8
+```
+3. Tunggu proses instalasi selesai
+
 #### Instalasi Flutter
 
 1. Download Flutter [disini](https://storage.googleapis.com/flutter_infra/releases/stable/windows/flutter_windows_v1.2.1-stable.zip)
@@ -72,7 +94,7 @@ penggunaan **Android Studio** ini opsional, namun kami menyarankan untuk mennggu
 1. Aktifkan **Developer Options** dan **USB Debugging** di Smartphone anda, untuk intruksi lebih lanjut dapat dilihat [disini](https://developer.android.com/studio/debug/dev-options).
 2. Download dan Install Google USB Driver [disini](https://developer.android.com/studio/run/win-usb).
 3. Menggunakan kabel USB, colokkan antara komputer dengan Smartphone, jika muncul peringatan di Smartphone tekan saja `allow`.
-4. Pada terminal seperti langkah [ini](http://localhost:3000/#/android_prerequisite?id=jalankan-flutter-doctor) jalankan perintah
+4. Pada terminal, seperti langkah [ini](http://localhost:3000/#/android_prerequisite?id=jalankan-flutter-doctor) jalankan perintah
 ```
 C:\src\Flutter> flutter devices
 ```
@@ -93,7 +115,8 @@ C:\src\Flutter> flutter devices
 2. Buka Preferences (**File > Settings > Plugins**)
 3. Pilih **Browse Repositories**, pilih `Flutter` plugin dan tekan **install**
 4. Tekan **Yes** untuk menginstall plugin
-5. Tekan **Restart** jika muncul
+5. Tekan **Accept** jika muncul peringatan instalasi plugin `Dart`
+6. Tekan **Restart** jika muncul
 
 
 ## Membuat Proyek Flutter

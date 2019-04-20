@@ -1,9 +1,10 @@
-- [Pendahuluan](getting_started.md)
+- [Pendahuluan](README.md)
 
 * Android
 
-  - [Persyaratan](android_prerequisite.md)
-  - [Penulisan Kode](android_coding.md)
+  - [Permulaan](android_expo_prerequisite.md)
+  - [Membuat Proyek Baru](android_expo_create_project.md)
+  - [Penulisan Kode](android_expo_coding.md)
 
 * Web
 
