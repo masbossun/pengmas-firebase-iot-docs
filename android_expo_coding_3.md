@@ -144,13 +144,13 @@ kata-nya adalah huruf kapital di kata ke-2 dan kata berikutnya. Contoh di `CSS` 
 `background-color` sedangkan di React Native bernama
 `backgroundColor`.
 
-Secara default React Native menggunakan `display: flex` pada seluruh komponen
-style atau biasa disebut dengan _flexbox_
-
    <center><img src="assets/images/expo_coding_8.png" alt="expo client"
    width="300"/></center>
 
 ---
+
+Secara default React Native menggunakan `display: flex` pada seluruh komponen
+style atau biasa disebut dengan _flexbox_
 
 sekarang coba hapus property `justifyContent` pada container di `App.js`
 
@@ -422,4 +422,4 @@ dan tampilan aplikasinya menjadi seperti ini.
    <center><img src="assets/images/expo_coding_12.png" alt="expo client"
    width="300"/></center>
 
-[Selanjutnya](android_expo_coding_3.md)
+[Selanjutnya](android_expo_coding_4.md)

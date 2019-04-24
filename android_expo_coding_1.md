@@ -1,9 +1,3 @@
-# Rancangan Desain Aplikasi
-
-Aplikasi yang dibuat nanti akan memilki desain seperti ini:
-
-   <center><img src="assets/images/desain_aplikasi.png" alt="desain" width="300"/></center>
-
 # Mempersiapkan Code Editor dan Perangkat Android
 
 1. Buka Visual Studio Code
@@ -38,6 +32,5 @@ Aplikasi yang dibuat nanti akan memilki desain seperti ini:
    muncul di perangkat android.
    <center><img src="assets/images/expo_coding_5.png" alt="apps in expo client"
    width="300"/></center>
-
 
 [Selanjutnya](android_expo_coding_2.md)
