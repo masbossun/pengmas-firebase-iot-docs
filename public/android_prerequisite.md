@@ -12,6 +12,9 @@ Pada modul ini akan dijelaskan pembuatan aplikasi mobile khususnya Android mengg
 
 # Permulaan
 
+> Untuk memulai CMD dengan mode administrator, bisa dengan mencari **cmd** pada Windows search, lalu klik kanan dan pilih **Run as administrator**
+[image](/assets/image/cmd.png)
+
 #### Instalasi Chocolatey
 
 1. Buka CMD as Administrator
